@@ -8,9 +8,13 @@ function App() {
   return (
     <div className="App">
       <Header/>
-      <Banner/>
-      <Blog/>
-      <News/>
+      <main>
+        <Banner/>
+        <div className='wrapper'>
+          <Blog/>
+          <News/>
+        </div>
+      </main>
     </div>
   );
 }

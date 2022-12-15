@@ -1,0 +1,8 @@
+.blog {
+    min-height: 429px;
+    padding: 17px 0 15px;
+}
+
+.blog .title {
+    margin-bottom: 15px;
+}

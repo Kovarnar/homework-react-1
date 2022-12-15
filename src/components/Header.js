@@ -7,9 +7,10 @@ function Header() {
         <header className="header">
             <div className="container">
                 <img src={logo} className="header__logo" alt="logo" height="37" width="181" />
-                <p className="header__text">Blog name</p>
+                <h2 className="header__title title">Blog name</h2>
+                
                 <nav className='header__menu'>
-                    <h2 className='visually-hidden'>for SEO</h2>
+                    <h1 className='visually-hidden'>for SEO</h1>
                     <ul className='header__menu-list'>
                         <HeaderMenuItem/>
                         <HeaderMenuItem/>

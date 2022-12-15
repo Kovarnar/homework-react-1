@@ -1,15 +1,18 @@
 .header {
     padding: 6px 0;
+    margin-bottom: 19px;
 }
 
-.container {
-    max-width: 1123px;
+.header .container {
+    max-width: 1125px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.header__text {}
+.header__text {
+    font-size: 12px;
+}
 
 .header__menu{}
 
