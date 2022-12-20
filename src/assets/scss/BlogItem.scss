@@ -1,0 +1,10 @@
+@import './base/base.scss';
+
+.blog__item {
+    height: 70px;
+    background-color: $pinkColor;
+
+    &:not(:last-child) {
+        margin-bottom: 27px;
+    }
+}

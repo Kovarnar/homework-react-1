@@ -1,0 +1,19 @@
+@import './base/base.scss';
+
+.header {
+    padding: 6px 0;
+    margin-bottom: 19px;
+    
+    .container {
+        max-width: 1125px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__menu-list{
+        display: flex;
+        align-items: center;
+        gap: 19px;
+    }
+}

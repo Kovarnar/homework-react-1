@@ -1,11 +1,12 @@
-import '../assets/css/Blog.css';
+import '../assets/scss/Blog.scss';
 import BlogItem from './BlogItem';
+import Title from './Title';
 
 function Blog() {
     return (
         <section className='blog'>
             <div className='container'>
-                <h2 className='blog__title title'>Blog</h2>
+                <Title titleH2="Blog" />
                 <ul className='blog__list'>
                     <BlogItem/>
                     <BlogItem/>

@@ -1,0 +1,10 @@
+@import './base/base.scss';
+
+.news__item {
+    height: 110px;
+    background-color: $blueColor;
+
+    &:not(:last-child) {
+        margin-bottom: 9px;
+    }
+}

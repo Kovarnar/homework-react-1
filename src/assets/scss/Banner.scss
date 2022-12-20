@@ -1,0 +1,12 @@
+@import './base/base.scss';
+
+.banner {
+    position: relative;
+    background-color: $greyColor;
+    margin-bottom: 24px;
+
+    .container {
+        min-height: 145px;
+        @include center;
+    }
+}

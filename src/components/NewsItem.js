@@ -1,4 +1,4 @@
-import '../assets/css/NewsItem.css';
+import '../assets/scss/NewsItem.scss';
 
 function NewsItem() {
     return (

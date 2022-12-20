@@ -1,8 +1,0 @@
-.blog__item {
-    height: 70px;
-    background-color: #F9D7D7;
-}
-
-.blog__item:not(:last-child) {
-    margin-bottom: 27px;
-}

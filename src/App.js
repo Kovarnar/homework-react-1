@@ -1,4 +1,4 @@
-import './App.css';
+import './assets/scss/App.scss';
 import Header from './components/Header';
 import Banner from './components/Banner';
 import Blog from './components/Blog';

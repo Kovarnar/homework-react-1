@@ -1,8 +1,0 @@
-.news__item {
-    height: 110px;
-    background-color: #BDCDF6;
-}
-
-.news__item:not(:last-child) {
-    margin-bottom: 9px;
-}

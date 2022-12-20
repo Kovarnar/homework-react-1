@@ -1,4 +1,4 @@
-import '../assets/css/BlogItem.css';
+import '../assets/scss/BlogItem.scss';
 
 function BlogItem() {
     return (
